@@ -1,106 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width,
-    , initial-scale=1.5">
-    <title>Turismo em Nova Friburgo</title>
-    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turismo em Nova Friburgo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h2>Turismo em Nova Friburgo</h1>
-        <ul>
-            <li>
-                <a href="#">Inicio</a>
-            </li>
-            <li>
-                <a href="#">Circuitos</a>
-            </li>
-            <li>
-                <a href="#">Novidades</a>
-            </li>
-            <li>
-                <a href="#">Atrações</a>
-            </li>
-            <li>
-                <a href="#">Parques</a>
-            </li>
-        </ul>
-    </header>
-    <main>
-        <section>
-            <h2>Legenda</h2>
-            <ul>
-                <li>
-                    <img url="#">
-                </li>
-                <li>
-                    <img url="#">
-                </li>
-                <li>
-                    <img url="#">
-                </li>
-                <li>
-                    <img url="#">
-                </li>
-            </ul>
-        </section>
-        <section>
-            <div class="Turismo">
-                <article>
-                    <h3>Lorem</h3>
-                    <p>Lorem</p>
-                    <img url="#">
-                </article>
-                <article>
-                    <h3>Lorem</h3>
-                    <p>Lorem</p>
-                    <img url="#">
-                </article>
-                <article>
-                    <h3>Lorem</h3>
-                    <p>Lorem</p>
-                    <img url="#">
-                </article>
-                <article>
-                    <h3>Lorem</h3>
-                    <p>Lorem</p>
-                    <img url="#">
-                </article>
-            </div>
-        </section>
-        <section>
-            <div class="NF">
-                <article>
-                    <h4>Lorem</h4>
-                    <p>Lorem</p>
-                    <p>Lorem</p>
-                </article>
-                <article>
-                    <h4>Ana Maria Antunes</h4>
-                    <p>Lorem</p>
-                    <img url="#">
-                </article>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Desenvolvido por Fundamentos da Web 2020.2</p>
-        <ul>
-            <li>
-                <ico url="#"></ico>
-            </li>
-            <li>
-                <ico url="#"></ico>
-            </li>
-            <li>
-                <ico url="#"></ico>
-            </li>
-            <li>
-                <ico url="#"></ico>
-            </li>
-        </ul>
-    </footer>
+  <header>
+    <h1>Turismo em Nova Friburgo</h1>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Circuitos</a></li>
+        <li><a href="#">Novidades</a></li>
+        <li><a href="#">Atrações</a></li>
+        <li><a href="#">Parques</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="banner-sec">
+      <span class="legenda">Legenda</span>
+      <div class="banner-box">
+        <button class="seta">&lt;</button>
+        <div class="imagem-placeholder">[ Imagem / Carrossel ]</div>
+        <button class="seta">&gt;</button>
+      </div>
+      <div class="pontinhos">
+        <span class="ponto ativo">1</span>
+        <span class="ponto">2</span>
+        <span class="ponto">3</span>
+        <span class="ponto">4</span>
+      </div>
+    </section>
+    <section class="cards-grid">
+      <div class="card">
+        <div class="card-img"></div>
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus enim, luctus nec quam a.</p>
+        <a href="#" class="btn-acao">Veja mais</a>
+      </div>
+      <div class="card">
+        <div class="card-img"></div>
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus enim, luctus nec quam a.</p>
+        <a href="#" class="btn-acao">Veja mais</a>
+      </div>
+      <div class="card">
+        <div class="card-img"></div>
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus enim, luctus nec quam a.</p>
+        <a href="#" class="btn-acao">Veja mais</a>
+      </div>
+    </section>
+    <section class="info-grid">
+      <div class="texto-bloco">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus enim, luctus nec quam a, aliquam venenatis neque. Maecenas erat ipsum, auctor eu viverra id, dignissim eget nisl. Quisque rutrum erat ipsum, vitae semper arcu pellentesque quis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus enim, luctus nec quam a, aliquam venenatis neque.</p>
+      </div>
+      <div class="perfil-bloco">
+        <div class="avatar-placeholder"></div>
+        <h4>Ana Maria Antunes, RJ</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper feugiat porta.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido por Fundamentos da Web 2026.2</p>
+    <div class="sociais">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-pinterest"></i></a>
+    </div>
+  </footer>
 </body>
 </html>
